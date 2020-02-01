@@ -2,7 +2,7 @@
   "name": "express-boilerplate-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "scripts": {
     "start:dev": "ts-node-dev --respawn --no-notify ./src/index.ts",
     "start": "node ./dist/index.js",
@@ -22,7 +22,7 @@
     "express",
     "typescript"
   ],
-  "author": "",
+  "author": "Emre YILMAZ <eylmz058@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eylmz/express-boilerplate-ts/issues"
